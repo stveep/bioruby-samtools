@@ -4,7 +4,7 @@ require 'fileutils'
 include FileUtils::Verbose
 require 'rake/clean'
 
-URL = "https://sourceforge.net/projects/samtools/files/samtools/0.1.19/samtools-0.1.19.tar.bz2/download"
+URL = "http://downloads.sourceforge.net/project/samtools/samtools/0.1.19/samtools-0.1.19.tar.bz2"
 
 task :download do
   open(URL) do |uri|
